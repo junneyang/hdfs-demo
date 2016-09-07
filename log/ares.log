@@ -1,0 +1,247 @@
+[DEBUG] 2016-09-02 14:43:35.083 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.test(HDFSTest.java:12) HDFSTest
+[DEBUG] 2016-09-02 14:45:39.590 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.test(HDFSTest.java:12) HELLO, THIS IS HDFSTest !
+[DEBUG] 2016-09-02 14:50:19.727 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.test(HDFSTest.java:12) HELLO, THIS IS HDFSTest
+[DEBUG] 2016-09-02 15:22:44.440 [] [] [main] org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField(MutableMetricsFactory.java:42) field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)], about=, type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] 2016-09-02 15:22:44.464 [] [] [main] org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField(MutableMetricsFactory.java:42) field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)], about=, type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] 2016-09-02 15:22:44.465 [] [] [main] org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField(MutableMetricsFactory.java:42) field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[GetGroups], about=, type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] 2016-09-02 15:22:44.466 [] [] [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl.register(MetricsSystemImpl.java:221) UgiMetrics, User and group related metrics
+[DEBUG] 2016-09-02 15:22:44.714 [] [] [main] org.apache.hadoop.security.authentication.util.KerberosName.<clinit>(KerberosName.java:88) Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] 2016-09-02 15:22:44.717 [] [] [main] org.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:238)  Creating new Groups object
+[DEBUG] 2016-09-02 15:22:44.719 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:46) Trying to load the custom-built native-hadoop library...
+[DEBUG] 2016-09-02 15:22:44.719 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:55) Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+[DEBUG] 2016-09-02 15:22:44.720 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:56) java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[WARN ] 2016-09-02 15:22:44.720 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[DEBUG] 2016-09-02 15:22:44.720 [] [] [main] org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init>(JniBasedUnixGroupsMappingWithFallback.java:40) Falling back to shell based
+[DEBUG] 2016-09-02 15:22:44.720 [] [] [main] org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init>(JniBasedUnixGroupsMappingWithFallback.java:44) Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+[DEBUG] 2016-09-02 15:22:44.729 [] [] [main] org.apache.hadoop.util.Shell.isSetsidSupported(Shell.java:396) setsid exited with exit code 0
+[DEBUG] 2016-09-02 15:22:44.729 [] [] [main] org.apache.hadoop.security.Groups.<init>(Groups.java:80) Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] 2016-09-02 15:22:44.736 [] [] [main] org.apache.hadoop.security.UserGroupInformation$HadoopLoginModule.login(UserGroupInformation.java:195) hadoop login
+[DEBUG] 2016-09-02 15:22:44.736 [] [] [main] org.apache.hadoop.security.UserGroupInformation$HadoopLoginModule.commit(UserGroupInformation.java:144) hadoop login commit
+[DEBUG] 2016-09-02 15:22:44.741 [] [] [main] org.apache.hadoop.security.UserGroupInformation$HadoopLoginModule.commit(UserGroupInformation.java:174) using local user:UnixPrincipal: root
+[DEBUG] 2016-09-02 15:22:44.745 [] [] [main] org.apache.hadoop.security.UserGroupInformation.loginUserFromSubject(UserGroupInformation.java:785) UGI loginUser:root (auth:SIMPLE)
+[DEBUG] 2016-09-02 15:37:05.461 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET(HDFSTest.java:29) HDFSTest: GET FILE
+[DEBUG] 2016-09-02 15:37:05.461 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET(HDFSTest.java:29) HDFSTest: GET FILE
+[DEBUG] 2016-09-02 15:41:52.990 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET(HDFSTest.java:29) HDFSTest: GET FILE
+[DEBUG] 2016-09-02 15:46:54.657 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET(HDFSTest.java:35) HDFSTest: GET FILE TEST
+[DEBUG] 2016-09-02 15:47:45.249 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET(HDFSTest.java:35) HDFSTest: GET FILE TEST
+[DEBUG] 2016-09-02 15:49:34.197 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET(HDFSTest.java:35) HDFSTest: GET FILE TEST
+[DEBUG] 2016-09-02 16:44:21.536 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testPUT(HDFSTest.java:47) HDFSTest: PUT FILE TEST
+[DEBUG] 2016-09-02 16:45:49.501 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET(HDFSTest.java:37) HDFSTest: GET FILE TEST
+[DEBUG] 2016-09-02 17:00:57.586 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testPUT_NEW(HDFSTest.java:58) HDFSTest: PUT_NEW FILE TEST
+[DEBUG] 2016-09-02 17:03:16.769 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testGET_NEW(HDFSTest.java:58) HDFSTest: GET_NEW FILE TEST
+[DEBUG] 2016-09-02 17:19:48.835 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testMKDIR(HDFSTest.java:79) HDFSTest: MKDIR TEST
+[DEBUG] 2016-09-02 17:22:17.371 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testRM(HDFSTest.java:87) HDFSTest: MKDIR TEST
+[DEBUG] 2016-09-02 17:23:53.906 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:95) HDFSTest: MKDIR TEST
+[DEBUG] 2016-09-02 17:24:52.150 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:95) HDFSTest: MKDIR TEST
+[DEBUG] 2016-09-02 17:24:52.229 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:97) org.apache.hadoop.fs.FileSystem$5@16655c61
+[DEBUG] 2016-09-02 17:30:35.209 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:97) HDFSTest: MKDIR TEST
+[DEBUG] 2016-09-02 17:30:35.311 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:30:35.312 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:30:35.312 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:30:35.338 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:30:35.341 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:30:35.342 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:30:35.345 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:30:35.345 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:30:35.347 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:30:35.374 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/word-count/input/word-count.txt
+[DEBUG] 2016-09-02 17:30:35.380 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/word-count/output/_SUCCESS
+[DEBUG] 2016-09-02 17:30:35.383 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/word-count/output/part-r-00000
+[DEBUG] 2016-09-02 17:34:12.006 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:97) HDFSTest: LIST TEST
+[DEBUG] 2016-09-02 17:34:12.111 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:34:12.115 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:34:12.116 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:34:12.116 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:34:12.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:34:12.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:34:12.134 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:34:12.138 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:34:12.140 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:34:12.141 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:34:12.143 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:34:12.143 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:34:12.143 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:34:12.144 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:34:12.144 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:34:12.146 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:34:12.146 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:34:12.146 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:34:12.190 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/word-count/input/word-count.txt
+[DEBUG] 2016-09-02 17:34:12.193 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) word-count.txt
+[DEBUG] 2016-09-02 17:34:12.198 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/word-count/output/_SUCCESS
+[DEBUG] 2016-09-02 17:34:12.202 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) _SUCCESS
+[DEBUG] 2016-09-02 17:34:12.203 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:102) hdfs://HADOOP-NODE1:9000/word-count/output/part-r-00000
+[DEBUG] 2016-09-02 17:34:12.205 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) part-r-00000
+[DEBUG] 2016-09-02 17:39:03.714 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:98) HDFSTest: LIST TEST
+[DEBUG] 2016-09-02 17:39:03.814 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:39:03.814 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:39:03.814 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:03.815 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:03.815 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:03.816 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:03.859 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:39:03.871 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:39:03.872 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:39:03.873 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:39:03.876 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:39:03.883 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:39:03.884 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:39:03.884 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:39:03.885 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:39:03.897 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:39:03.902 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:39:03.908 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:39:03.952 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/word-count/input/word-count.txt
+[DEBUG] 2016-09-02 17:39:03.955 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) word-count.txt
+[DEBUG] 2016-09-02 17:39:03.961 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/word-count/output/_SUCCESS
+[DEBUG] 2016-09-02 17:39:03.962 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) _SUCCESS
+[DEBUG] 2016-09-02 17:39:03.963 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/word-count/output/part-r-00000
+[DEBUG] 2016-09-02 17:39:03.963 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) part-r-00000
+[DEBUG] 2016-09-02 17:39:03.970 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) class org.apache.hadoop.fs.FileStatus
+[DEBUG] 2016-09-02 17:39:03.971 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) class org.apache.hadoop.fs.FileStatus
+[DEBUG] 2016-09-02 17:39:03.972 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) class org.apache.hadoop.fs.FileStatus
+[DEBUG] 2016-09-02 17:39:03.972 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) class org.apache.hadoop.fs.FileStatus
+[DEBUG] 2016-09-02 17:39:03.974 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) class org.apache.hadoop.fs.FileStatus
+[DEBUG] 2016-09-02 17:39:03.975 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) class org.apache.hadoop.fs.FileStatus
+[DEBUG] 2016-09-02 17:39:52.442 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:98) HDFSTest: LIST TEST
+[DEBUG] 2016-09-02 17:39:52.540 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:39:52.541 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:39:52.541 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:52.542 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:52.542 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:52.543 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:52.570 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:39:52.571 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:39:52.571 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:39:52.572 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:39:52.572 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:39:52.572 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:39:52.573 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:39:52.574 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:39:52.578 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:39:52.579 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:39:52.580 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:39:52.580 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:39:52.608 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/word-count/input/word-count.txt
+[DEBUG] 2016-09-02 17:39:52.612 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) word-count.txt
+[DEBUG] 2016-09-02 17:39:52.621 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/word-count/output/_SUCCESS
+[DEBUG] 2016-09-02 17:39:52.623 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) _SUCCESS
+[DEBUG] 2016-09-02 17:39:52.624 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:103) hdfs://HADOOP-NODE1:9000/word-count/output/part-r-00000
+[DEBUG] 2016-09-02 17:39:52.625 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) part-r-00000
+[DEBUG] 2016-09-02 17:39:52.634 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:39:52.635 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:52.636 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:39:52.637 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) tmp
+[DEBUG] 2016-09-02 17:39:52.637 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) user
+[DEBUG] 2016-09-02 17:39:52.638 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:109) word-count
+[DEBUG] 2016-09-02 17:43:47.420 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:98) HDFSTest: LIST TEST
+[DEBUG] 2016-09-02 17:43:47.547 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:43:47.549 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:43:47.549 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:43:47.549 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:43:47.550 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:43:47.550 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:43:47.575 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:43:47.579 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:43:47.579 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:43:47.579 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:43:47.580 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:43:47.581 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:43:47.585 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:43:47.585 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:43:47.586 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:43:47.589 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:43:47.589 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:43:47.589 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:43:47.608 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/word-count/input/word-count.txt
+[DEBUG] 2016-09-02 17:43:47.610 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) word-count.txt
+[DEBUG] 2016-09-02 17:43:47.613 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/word-count/output/_SUCCESS
+[DEBUG] 2016-09-02 17:43:47.613 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) _SUCCESS
+[DEBUG] 2016-09-02 17:43:47.613 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/word-count/output/part-r-00000
+[DEBUG] 2016-09-02 17:43:47.614 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) part-r-00000
+[DEBUG] 2016-09-02 17:43:47.617 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:43:47.617 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) true
+[DEBUG] 2016-09-02 17:43:47.617 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:43:47.617 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) true
+[DEBUG] 2016-09-02 17:43:47.617 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:43:47.618 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) true
+[DEBUG] 2016-09-02 17:43:47.618 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) tmp
+[DEBUG] 2016-09-02 17:43:47.618 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) false
+[DEBUG] 2016-09-02 17:43:47.618 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) user
+[DEBUG] 2016-09-02 17:43:47.618 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) false
+[DEBUG] 2016-09-02 17:43:47.618 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) word-count
+[DEBUG] 2016-09-02 17:43:47.619 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) false
+[DEBUG] 2016-09-02 17:45:06.473 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:98) HDFSTest: LIST TEST
+[DEBUG] 2016-09-02 17:45:06.572 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:45:06.572 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:45:06.573 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:45:06.573 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:45:06.573 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:45:06.574 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:45:06.599 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:45:06.599 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0001-1472697101575-root-QuasiMonteCarlo-1472697143013-5-1-SUCCEEDED-default-1472697109786.jhist
+[DEBUG] 2016-09-02 17:45:06.600 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:45:06.601 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0001.summary
+[DEBUG] 2016-09-02 17:45:06.602 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:45:06.602 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0001_conf.xml
+[DEBUG] 2016-09-02 17:45:06.603 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:45:06.603 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0002-1472698411014-root-word+count-1472698430068-1-1-SUCCEEDED-default-1472698416933.jhist
+[DEBUG] 2016-09-02 17:45:06.603 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:45:06.608 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0002.summary
+[DEBUG] 2016-09-02 17:45:06.609 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/tmp/hadoop-yarn/staging/history/done_intermediate/root/job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:45:06.609 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) job_1472693804930_0002_conf.xml
+[DEBUG] 2016-09-02 17:45:06.649 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/word-count/input/word-count.txt
+[DEBUG] 2016-09-02 17:45:06.650 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) word-count.txt
+[DEBUG] 2016-09-02 17:45:06.659 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/word-count/output/_SUCCESS
+[DEBUG] 2016-09-02 17:45:06.660 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) _SUCCESS
+[DEBUG] 2016-09-02 17:45:06.660 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:104) hdfs://HADOOP-NODE1:9000/word-count/output/part-r-00000
+[DEBUG] 2016-09-02 17:45:06.661 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:105) part-r-00000
+[DEBUG] 2016-09-02 17:45:06.666 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) jdk-7u60-linux-x64.tar.gz
+[DEBUG] 2016-09-02 17:45:06.666 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) false
+[DEBUG] 2016-09-02 17:45:06.668 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) put-test-jdk.tar.gz
+[DEBUG] 2016-09-02 17:45:06.668 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) false
+[DEBUG] 2016-09-02 17:45:06.669 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) put-test-new-jdk.tar.gz
+[DEBUG] 2016-09-02 17:45:06.670 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) false
+[DEBUG] 2016-09-02 17:45:06.670 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) tmp
+[DEBUG] 2016-09-02 17:45:06.670 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) true
+[DEBUG] 2016-09-02 17:45:06.670 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) user
+[DEBUG] 2016-09-02 17:45:06.670 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) true
+[DEBUG] 2016-09-02 17:45:06.670 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:114) word-count
+[DEBUG] 2016-09-02 17:45:06.671 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testLIST(HDFSTest.java:115) true
+[DEBUG] 2016-09-06 15:11:52.731 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 1
+[DEBUG] 2016-09-06 15:11:52.737 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@632b2d25
+[DEBUG] 2016-09-06 15:13:14.380 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 1
+[DEBUG] 2016-09-06 15:13:14.383 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@632b2d25
+[DEBUG] 2016-09-06 15:13:47.217 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 11
+[DEBUG] 2016-09-06 15:13:47.220 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@632b2d25
+[DEBUG] 2016-09-06 15:15:06.116 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 11
+[DEBUG] 2016-09-06 15:15:06.118 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@27a10b00
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 1363157985066 
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 13726230503
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 00-FD-07-A4-72-B8:CMCC
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 120.196.100.82
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: i02.c.aliimg.com
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 27
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 2481
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24681
+[DEBUG] 2016-09-06 15:15:06.121 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 200
+[DEBUG] 2016-09-06 15:18:27.955 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 1
+[DEBUG] 2016-09-06 15:18:27.959 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@27a10b00
+[DEBUG] 2016-09-06 15:18:27.959 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 1363157985066 	13726230503	00-FD-07-A4-72-B8:CMCC	120.196.100.82	i02.c.aliimg.com		24	27	2481	24681	200
+[DEBUG] 2016-09-06 15:18:55.204 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 11
+[DEBUG] 2016-09-06 15:18:55.209 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@27a10b00
+[DEBUG] 2016-09-06 15:18:55.209 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 1363157985066 
+[DEBUG] 2016-09-06 15:18:55.209 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 13726230503
+[DEBUG] 2016-09-06 15:18:55.210 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 00-FD-07-A4-72-B8:CMCC
+[DEBUG] 2016-09-06 15:18:55.210 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 120.196.100.82
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: i02.c.aliimg.com
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 27
+[DEBUG] 2016-09-06 15:18:55.212 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 2481
+[DEBUG] 2016-09-06 15:18:55.212 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24681
+[DEBUG] 2016-09-06 15:18:55.212 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 200
+
+

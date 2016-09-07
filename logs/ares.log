@@ -1,0 +1,37 @@
+[DEBUG] 2016-09-06 15:11:52.731 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 1
+[DEBUG] 2016-09-06 15:11:52.737 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@632b2d25
+[DEBUG] 2016-09-06 15:13:14.380 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 1
+[DEBUG] 2016-09-06 15:13:14.383 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@632b2d25
+[DEBUG] 2016-09-06 15:13:47.217 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 11
+[DEBUG] 2016-09-06 15:13:47.220 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@632b2d25
+[DEBUG] 2016-09-06 15:15:06.116 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 11
+[DEBUG] 2016-09-06 15:15:06.118 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@27a10b00
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 1363157985066 
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 13726230503
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 00-FD-07-A4-72-B8:CMCC
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 120.196.100.82
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: i02.c.aliimg.com
+[DEBUG] 2016-09-06 15:15:06.119 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 27
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 2481
+[DEBUG] 2016-09-06 15:15:06.120 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24681
+[DEBUG] 2016-09-06 15:15:06.121 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 200
+[DEBUG] 2016-09-06 15:18:27.955 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 1
+[DEBUG] 2016-09-06 15:18:27.959 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@27a10b00
+[DEBUG] 2016-09-06 15:18:27.959 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 1363157985066 	13726230503	00-FD-07-A4-72-B8:CMCC	120.196.100.82	i02.c.aliimg.com		24	27	2481	24681	200
+[DEBUG] 2016-09-06 15:18:55.204 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:124) 11
+[DEBUG] 2016-09-06 15:18:55.209 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:125) [Ljava.lang.String;@27a10b00
+[DEBUG] 2016-09-06 15:18:55.209 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 1363157985066 
+[DEBUG] 2016-09-06 15:18:55.209 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 13726230503
+[DEBUG] 2016-09-06 15:18:55.210 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 00-FD-07-A4-72-B8:CMCC
+[DEBUG] 2016-09-06 15:18:55.210 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 120.196.100.82
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: i02.c.aliimg.com
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24
+[DEBUG] 2016-09-06 15:18:55.211 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 27
+[DEBUG] 2016-09-06 15:18:55.212 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 2481
+[DEBUG] 2016-09-06 15:18:55.212 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 24681
+[DEBUG] 2016-09-06 15:18:55.212 [] [] [main] com.ares.hadoop.hdfs.HDFSTest.testSplit(HDFSTest.java:127) FIELD: 200
+
+
