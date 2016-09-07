@@ -2,4 +2,4 @@
 HDFS Demo
 
 * Basic Concept:        
-![image](screenshot/hdfs.PNG)
+![image](screenshot/hdfs.png)
