@@ -1,5 +1,5 @@
 # hdfs-demo
 HDFS Demo
 
-* Basic Concept:        
+* Notes:        
 ![image](screenshot/hdfs.png)
